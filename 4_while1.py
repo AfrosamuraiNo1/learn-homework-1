@@ -11,7 +11,7 @@
 
 
 def hello_user():  
-  say = input()
+  say = input('Как дела?')
   while say != 'Хорошо':
     say = input('Как дела?')
 
